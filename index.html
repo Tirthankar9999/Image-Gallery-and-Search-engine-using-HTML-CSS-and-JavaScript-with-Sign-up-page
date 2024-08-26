@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery using HTML,CSS & JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="ig-high-resolution-logo-white-transparent.png" type="image/x-icon"/>
+
+</head>
+<body id="main-body">
+    <div>
+        <a href="sign up.html" target="_blank"><button class="signup-btn">Join Us!</button></a>
+        <h1 align="center">Image<span style="color: #110e6a;">Gallery</span></h1>
+        <h2>And Image Search Engine using HTML, CSS & JavaScript</h2>
+        <h3 align="center">Search and Download any image of your liking!</h3>
+    </div>
+    <div class="searchbar">
+        <input class="search1" type="text" name="searchbox" id="searchInput" placeholder="Search for Images here" list="project" autocomplete="on">
+        <datalist id="project">
+            <option value="Mountains">
+            <option value="Oceans and Seas">
+            <option value="Forests">
+        </datalist>
+        <button id="searchButton" >Search</button>
+        
+    </div>
+    <div class="dropdown">
+        <ul>
+                <li><a id="mtn_nav" href="mountains.html" target="_blank">Mountains</a></li>
+                <li><a id="ocn_nav" href="seas and oceans.html" target="_blank">Oceans and Seas</a></li>
+                <li><a id="frst_nav" href="forest.html" target="_blank">Forests</a></li>
+                
+                
+            </ul>
+    </div>
+<div class="container">
+    <a href="mountains.html"><div class="card">
+        <img src="https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img" alt="">
+        <div class="card-body">
+            <h1 class="card-title">Mountains</h1>
+            <p class="card-sub-title">Majestic </p>
+            <p class="card-info">"He who climbs upon the highest mountains laughs at all tragedies, real or imaginary.” — Friedrich Nietzsche</p>
+        </div>
+    </div></a>
+
+    <a href="seas and oceans.html"><div class="card2">
+        <img src="https://images.pexels.com/photos/1802268/pexels-photo-1802268.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img2" alt="">
+        <div class="card-body2">
+            <h1 class="card-title2">Oceans & Seas</h1>
+            <p class="card-sub-title2">Calm</p>
+            <p class="card-info2">“The ocean stirs the heart, inspires the imagination and brings eternal joy to the soul.” ―William James.</p>
+        </div>
+    </div></a>
+
+    <a href="forest.html"><div class="card3">
+        <img src="bcg photo.webp" class="card-img3" alt="">
+        <div class="card-body3">
+            <h1 class="card-title3">Forests</h1>
+            <p class="card-sub-title3">Life</p>
+            <p class="card-info3">"You will find something more in woods than in books.” ―Saint Bernard of Clairvaux</p>
+        </div>
+    </div></a>
+
+</div>
+    <script src="gallery.js"></script>
+    
+    
+      
+</body>
+</html>

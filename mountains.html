@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain Image Gallery</title>
+    <link rel="stylesheet" href="mountain.css">
+    <link rel="icon" href="ig-high-resolution-logo-white-transparent.png" type="image/x-icon"/>
+    
+</head>
+<body>
+    <div class="mtnbg">
+    <a href="index.html"><button class="home-page-mtn">HOME</button></a>
+    <h1>Mountain<span style="color: rgb(195, 115, 24);">Images </span></h1>
+    <p id="mtnp">Click on your favorite images below to download!</p>
+
+    <div id="search-container">
+        <input type="text" id="search" placeholder="Search images here....">
+        <button onclick="filterImages()">Search</button>
+    </div>
+</div>
+    <div id="image-gallery">
+        <div class="image-card" data-name="Mount mt Fuji">
+            <a href="mt fuji.jpeg" download="Mt fuji"><img src="mt fuji.jpeg" alt="Mt fuji"></a>
+        </div>
+        <div class="image-card" data-name="Mountains">
+            <a href="m1.jpg" download="Mountain"><img src="m1.jpg" alt="Mountain"></a>
+        </div>
+        <div class="image-card" data-name="Wyoming mountain">
+            <a href="wyoming.jpg" download="wyoming mountain"><img src="wyoming.jpg" alt="Mountain"></a>
+        </div>
+        <div class="image-card" data-name="Himalayas">
+            <a href="himalayas.webp" download="Himalayas"><img src="himalayas.webp" alt="Himalayas"></a>
+        </div>
+        <div class="image-card" data-name="Mountain">
+            <a href="m2.jpeg" download="Mountain"><img src="m2.jpeg" alt="Mountain"></a>
+        </div>
+        <div class="image-card" data-name="Mont blanc">
+            <a href="mont blanc.jpg" download="Mont Blanc"><img src="mont blanc.jpg" alt="Mont Blanc"></a>
+        </div>
+        <div class="image-card" data-name="Mountain houses">
+            <a href="m3.webp" download="Mountain houses"><img src="m3.webp" alt="Mountain houses" ></a>
+        </div>
+        <div class="image-card" data-name="Everest Himalayas">
+            <a href="everest.jpeg" download="Everest"><img src="everest.jpeg" alt="everest"></a>
+        </div>
+        <div class="image-card" data-name="K2">
+            <a href="k2.jpg" download="K2"><img src="k2.jpg" alt="K2"></a>
+        </div>
+        <div class="image-card" data-name="Kailash">
+            <a href="kailash 2.jpg" download="kailash"><img src="kailash 2.jpg" alt="kailash"></a>
+        </div>
+        <div class="image-card" data-name="Kailash">
+            <a href="kailash 3.webp" download="kailash"><img src="kailash 3.webp" alt="kailash"></a>
+        </div>
+        
+        <div class="image-card" data-name="Mount olympus">
+            <a href="olympus.jpg" download="olympus Mt"><img src="olympus.jpg" alt="olympus"></a>
+        </div>
+        <div class="image-card" data-name="Kilimanjaro">
+            <a href="Kilimanjaro.webp" download="Kilimanjaro"><img src="Kilimanjaro.webp" alt="Kilimanjaro"></a>
+        </div>
+        <div class="image-card" data-name="Mount Mt Fuji">
+            <a href="mt fuji 2.jpeg" download="Mount Fuji"><img src="mt fuji 2.jpeg" alt="Mount Fuji"></a>
+        </div>
+        <div class="image-card" data-name="Mount Mt Fuji">
+            <a href="mt fuji3.jpeg" download="mt fuji"><img src="mt fuji3.jpeg" alt="mt fuji"></a>
+        </div>
+        <div class="image-card" data-name="Mountains">
+            <a href="mt4.webp" download="Mountain"><img src="mt4.webp" alt="Mountain"></a>
+        </div>
+        <div class="image-card" data-name="Mountain">
+            <a href="m5.jpeg" download="Mountain"><img src="m5.jpeg" alt="Mountain"></a>
+        </div>
+        <div class="image-card" data-name="Mountain peak">
+            <a href="mountain peak.jpeg" download="Mountain peak"><img src="mountain peak.jpeg" alt="Mountain peak"></a>
+        </div>
+        <div class="image-card" data-name="Mountain peak">
+            <a href="m6.jpeg" download="Mountain peak"><img src="m6.jpeg" alt="Mountain peak"></a>
+        </div>
+        <div class="image-card" data-name="Mountain">
+            <a href="m7.jpeg" download="Mountain"><img src="m7.jpeg" alt="Mountain"></a>
+        </div>
+      <script src="gallery.js"></script>
+      
+</html>
